@@ -19,3 +19,7 @@ print("Division: ",div)
 print("Remainder: ",rem)
 print("Floor division: ",Fdiv)
 print("Power: ",exp)
+
+
+x=5+2*3**2//4-1
+print(x)
