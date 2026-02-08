@@ -1,7 +1,7 @@
 #check the values of [.....]
 
-x=9
 phone_number = [0,1,9,9,0,9,0,3,6,8,2]
+x=9
 
 print(3 in phone_number)
 print(5 in phone_number)
