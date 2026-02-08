@@ -34,4 +34,8 @@ print(text.count("a"))
 #title()
 text = "python programming language"
 print(text.title())
+
+
+#capitalize()
+text = "python programming language"
 print(text.capitalize())

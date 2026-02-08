@@ -9,4 +9,4 @@ print(string[3:])      # hon
 print(string[-4:-1])   # tho
 
 
-print(string[0:6:2])
+print(string[0:6:2])   #Pto
