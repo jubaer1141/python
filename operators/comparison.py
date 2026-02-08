@@ -1,4 +1,5 @@
 # ==  !=  >  <  >=  <=
+#expected out put Ture/False
 
 x=10
 y=5
