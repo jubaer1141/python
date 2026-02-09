@@ -21,3 +21,9 @@ print(numbers)   #[10, 30, 40, 43, 50, 20, 60]
 numbers = [10, 20, 30, 40, 43, 50, 20, 60 ]
 del numbers[1] 
 print(numbers)    #[10, 30, 40, 43, 50, 20, 60]
+
+
+#also we can change item
+nums = [1, 2, 3]
+nums[0] = 100
+print(nums)
