@@ -2,9 +2,12 @@
 items = ["pen", "book", "bag"]
 
 for x in items:
-    print(x)    #pen
-                #book
-                #bag
+    print(x)    
+
+#Python takes one item at a time.    
+#pen
+#book
+#bag
 
 
 #unpacking list
