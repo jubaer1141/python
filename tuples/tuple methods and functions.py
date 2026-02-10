@@ -4,11 +4,11 @@
 #index()
 
 t = (1, 2, 2, 3)
-print(t.count(2))
+print(t.count(2))    #2
 
 
 t = ("a", "b", "c", "b")
-print(t.index("b"))  
+print(t.index("b"))  #1   
 #(index of first match)
 
 
@@ -17,10 +17,11 @@ print(t.index("b"))
 #Functions
 
 t = (10, 20, 30)
-print(len(t))
+print(len(t))      #3
 
 
 t = (5, 2, 9, 1)
-print(min(t))
+print(min(t))    
 print(max(t))
 print(sum(t))
+

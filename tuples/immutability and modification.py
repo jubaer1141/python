@@ -20,7 +20,5 @@ print(t * 3)  #(5, 6, 5, 6, 5, 6)
 
 t = (10, 20, 30)
 
-print(20 in t)
-print(50 in t)
-#True
-False
+print(20 in t)  #true
+print(50 in t)  #False
