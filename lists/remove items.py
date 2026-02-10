@@ -11,9 +11,21 @@ print(numbers)   #[20, 30, 40, 43, 50, 10]
 
 
 
+
+
+#pop()
+nums = [10, 20, 30, 10, 10]
+x = nums.pop()
+#pop() removes last item and stores it in x.
+print(x)     #10
+print(nums)  #[10, 20, 30, 10]
+
+
+
 #pop(index)
 numbers = [10, 20, 30, 40, 43, 50, 20, 60 ]
-numbers.pop(1)
+x = numbers.pop(1)
+print(x)         #20
 print(numbers)   #[10, 30, 40, 43, 50, 20, 60]
 
 
@@ -26,4 +38,4 @@ print(numbers)    #[10, 30, 40, 43, 50, 20, 60]
 #also we can change item
 nums = [1, 2, 3]
 nums[0] = 100
-print(nums)
+print(nums)       #[100, 2, 3]
