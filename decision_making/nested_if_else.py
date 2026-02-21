@@ -10,3 +10,15 @@ if marks >= 40:
         print("Pass but attendance shortage")
 else:
     print("Fail")
+
+
+username = input("Username: ")
+password = input("Password: ")
+
+if username == "admin":
+    if password == "1234":
+        print("Login successful")
+    else:
+        print("Wrong password")
+else:
+    print("User not found")
